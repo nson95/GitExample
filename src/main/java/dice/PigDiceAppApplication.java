@@ -38,7 +38,7 @@ public class PigDiceAppApplication {
 			highScores.add(highScore);
 			int highestScore = Collections.max(highScores);
 			System.out.println("Your high score: " +highScore +"\n"
-								+"Your overall highest score: " +highestScore);
+								+"Overall highest score: " +highestScore);
 			System.out.println();
 			System.out.print("Continue? (y/n) ");
 			choice=sc.next();
