@@ -32,10 +32,11 @@ public class PigDiceAppApplication {
 							scores.add(score);
 						} else if (rollValue==1) {
 							games-=1;
+							score=0;
 						}
 				}
-			int highScore = Collections.max(scores);
-			highScores.add(highScore);
+				int highScore = Collections.max(scores);
+				highScores.add(highScore);
 			int highestScore = Collections.max(highScores);
 			System.out.println("Your high score: " +highScore +"\n"
 								+"Overall highest score: " +highestScore);
