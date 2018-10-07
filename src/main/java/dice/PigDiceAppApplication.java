@@ -51,5 +51,4 @@ public class PigDiceAppApplication {
 	public static int rollOfTheDie() {
 		return (int) (Math.random() * 6 + 1);
 	}
-
 }
